@@ -1,0 +1,204 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #facb66;
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: 
+  -box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    a:link {
+        color: #facb66;
+        text-decoration: none;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: #415b6e;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: #911f1e;;
+      }
+        /* button */
+      button {
+            padding: 15px 50px;
+            margin: 10px 4px;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            background: #911f1e;
+            color:white;
+          }
+          button:hover {
+            opacity: 0.75;
+          }
+    
+    hr{
+      margin: 15px;
+      border:#06397d 1px solid;
+      }
+
+      h2{
+        text-align: center; 
+       }
+       
+#top_title{color:#911f1e;}
+
+/* Style the header */
+header {
+background-color: #82add6;
+  text-align: center;
+  color: #facb66;
+  height: 300px;
+}
+#logo{
+float: left;
+}
+
+#header_title{
+    float: left;
+    padding-top: 30px;
+    color: #c25353;
+    }
+
+/* Create two columns/boxes that floats next to each other */
+#side {
+  float: left;
+  width: 35%;
+  height: 100%;
+  background-color: #facb66;
+  padding: 20px;
+}
+
+#main {
+  float: right;
+  padding: 10px;
+  background-color:aliceblue;
+  width: 59%;
+  }
+
+.loop_container{
+  padding: 3px;
+  clear:both;
+}
+.title{
+    color:#911f1e;
+    background-color: aliceblue;
+    font-size: 2em;
+}
+
+#detail_photo{
+  width: 98%;
+}
+
+.display-box{
+    background-color: #e4e9f4;
+}
+
+
+#photo{
+  float:left;
+   width: 47%;
+
+}
+
+#room_info{
+  float:left;  
+}
+#room{
+    float:left;  
+    /*border-bottom:2px #06397d solid;*/
+    padding: 5px;
+    background-color: aliceblue;
+  }
+
+#other_hr{
+    background-color:#e4e9f4;
+    border:#06397d 1px solid;
+}
+
+.other_title_1{
+    color:#911f1e;
+    padding-top:20px; 
+    font-size: 2em;
+    background-color: #e4e9f4;
+}
+
+.other_title_2{
+    color:#911f1e;
+    padding-top:20px; 
+    font-size: 2em;
+    background-color: aliceblue;
+}
+
+.other_rooms{
+    background-color: #e4e9f4;    
+    float:left;
+    width: 100%;
+    border-bottom:#06397d 3px solid;
+    padding: 30px;
+}
+
+.other_room_text{
+    background-color:#e4e9f4;
+    float:left;
+    padding-left: 20px;
+}
+.other_room_photo{
+    float:left;    
+  }
+  
+ .photo_of_other_room{
+     float:left;
+ }
+ 
+ .other_venues{
+  background-color: aliceblue;
+  float:left;
+  width: 100%;
+  -top: 1px solid #e4e9f4;
+}
+
+.other__venue_text{
+  background-color: aliceblue;
+  float:left;
+  padding-left: 20px;
+}
+.other_venue_photo{
+    float:left; 
+}
+
+.venue_bottom:{
+  background-color: aliceblue;
+  border-bottom: 2px #06397d solid;
+}
+
+/* Style the footer */
+footer {
+  background-color: #82add6;
+  padding: 10px;
+  text-align: center;
+  color: #458bcc;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
